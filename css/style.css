@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+ul.topnav li.right {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: grey;}
+
+ul.topnav li a.active {background-color: firebrick;}
+
+
+@media screen and (max-width: 500px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  };
+}
+.monde {
+  width: 100%;
+  height: 100%;
+}
+/* Presentation */
+body {
+    background-color: rgb(139, 107, 63);
+}  
+.mainTitle {
+    color: ivory;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+table {
+    display: table;
+    display: block;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    width: 25%;
+  }
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.secondTitle {
+    color: ivory;
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+    background-color: rgb(29, 27, 27);
+}
+.manga1 {
+   height: 60%;
+}
+.fantastique {
+    width: 75%;
+    height: 75%;
+
+}
+.ok {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+image {
+  background-image: .jpg;
+}
+
+/* CSS formulaire*/
+body {
+  margin: 0;
+  font-size: medium;
+}
+body {
+  background-color: tan;
+} 
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.table2, .tr2 {
+  border: 1px solid black;
+  background-color:rgb(241, 182, 71);
+}
+
+/*footer*/
+.fa {
+  padding: 16px;
+  font-size: 25px;
+  width: 52px;
+  text-align: center;
+  
+  border-radius: 70%;
+  margin-right: 100px;
+  color: rgba(255, 255, 255, 0.068);
+  
+} 
+/* Game */
+
+a.squiffy-link
+{
+    text-decoration: underline;
+    color: firebrick;
+    cursor: pointer;
+}
+a.squiffy-link.disabled
+{
+    text-decoration: inherit;
+    color: inherit !important;
+    cursor: inherit;
+}
+a.squiffy-header-link
+{
+    text-decoration: underline;
+    color: firebrick;
+    cursor: pointer;
+}
+div#squiffy-container
+{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, serif;
+}
+div#squiffy-header
+{
+    font-size: 14px;
+    text-align: right;
+}
+div#squiffy
+{
+    font-size: 18px;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 16px; margin-bottom: 16px;
+}
